@@ -1,10 +1,10 @@
 namespace WinFormsAppModernView
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
         private Form activeForm = null;
 
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
             CustomizeDesign();
@@ -59,7 +59,7 @@ namespace WinFormsAppModernView
 
         private void btnSubmenu2_Click(object sender, EventArgs e)
         {
-            openChildForm(new Form3());
+            //open form code
             HideSubMenu();
         }
 
